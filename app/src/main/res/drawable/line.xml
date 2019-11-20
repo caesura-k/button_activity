@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="line">
+    <stroke
+        android:width="8dp"
+        android:color="@color/colorTomato2"/>
+    <size
+        android:height="10dp"
+        android:width="300dp"/>
+</shape>
+<!-- stroke的width描述stroke的宽度，size的height描述shape的宽度；
+     因为stroke属于shape内的标签，所以stroke的宽度要小于shape的高度 -->
+<!--size和组件长宽不同时，显示数值大的-->

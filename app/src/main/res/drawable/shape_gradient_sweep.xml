@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <gradient
+        android:type="sweep"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        android:startColor="@color/colorLightBlue"
+        android:endColor="@color/colorRosyBrown1" />
+    <size android:width="50dp"
+        android:height="50dp"/>
+</shape>
+    <!--扫描gradient，先确定类型，然后确定扫描中心点，然后确定颜色-->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:angle="270"
+                android:startColor="@color/darkGrey"
+                android:endColor="@color/colorRosyBrown1" />
+            <size
+                android:width="50dp"
+                android:height="50dp"/>
+            <padding
+                android:top="15dp"/>
+        </shape>
+    </item>
+    <!--线性gradient，angle属性只有线性渐变能用-->
+</selector>
+    <!--总结：gradient标签使用的三步骤可以概括为先确定type，然后确定位置，最后确定颜色-->
+    <!--总结：angle是linear的特有属性，gradientRadius是radial的必要属性-->

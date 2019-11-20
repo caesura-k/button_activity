@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="ring"
+    android:innerRadius="15dp"
+    android:thickness="10dp"
+    android:useLevel="false">
+
+    <gradient
+        android:type="sweep"
+        android:startColor="@color/colorAccent"
+        android:endColor="@color/colorWhite" />
+</shape>
+<!--shape是环形的，所以子标签的属性描述的是环形，而不是环心的空心部分-->
+<!--需要定义内环半径innerRadius和内环厚度thickness-->
+<!--属性innerRadiusRatio和thicknessRatio的比例不知道怎么计算-->
+<!--useLevel属性是必要属性，不然不显示，不知道为什么-->
