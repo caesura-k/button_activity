@@ -1,4 +1,5 @@
 # button_activity
-这是一个关于shape标签用法示例的activity
-主要是用shape绘制了多个btn，界面显示如下：
+这是一个关于shape标签用法的activity
+shape知识点的博客地址：https://www.cnblogs.com/caesura-k/p/11853368.html
+界面显示如下：
 ![image](https://github.com/caesura-k/button_activity/blob/master/btn.png)
